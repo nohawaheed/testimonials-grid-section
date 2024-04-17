@@ -1,0 +1,81 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+html {
+  font-size: 13px;
+}
+
+body {
+  background-color: var(--light-grayish-blue);
+}
+
+:root {
+  --light-gray: hsl(0, 0%, 81%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+  --moderate-violet: hsl(263, 55%, 52%);
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.barlow-medium {
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
+.barlow-semibold {
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+.daniel {
+  .card {
+    background-color: var(--moderate-violet);
+  }
+}
+.jonathan {
+  .card {
+    background-color: var(--very-dark-grayish-blue);
+  }
+}
+.patrick {
+  .card {
+    background-color: var(--very-dark-blackish-blue);
+  }
+}
+.daniel,
+.jonathan,
+.patrick {
+  h5 {
+    color: var(--light-grayish-blue) !important;
+  }
+  h6 {
+    color: rgba(236, 242, 248, 0.5) !important;
+  }
+  .card-text {
+    color: var(--white) !important;
+  }
+  .card-quote {
+    color: rgba(236, 242, 248, 0.7) !important;
+  }
+}
+.kira,
+.jeanette {
+  h5 {
+    color: var(--very-dark-blackish-blue) !important;
+  }
+  h6 {
+    color: rgba(25, 33, 46, 0.5) !important;
+  }
+  .card-text {
+    color: var(--very-dark-blackish-blue) !important;
+  }
+  .card-quote {
+    color: rgba(25, 33, 46, 0.7) !important;
+  }
+}
