@@ -36,6 +36,9 @@ body {
 .daniel {
   .card {
     background-color: var(--moderate-violet);
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 5rem;
   }
 }
 .jonathan {
@@ -77,5 +80,11 @@ body {
   }
   .card-quote {
     color: rgba(25, 33, 46, 0.7) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    background-position: top right 2rem !important;
   }
 }
